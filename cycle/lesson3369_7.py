@@ -8,11 +8,8 @@ list = []
 while True:
     temp = int(input())
     summ += temp
-    list.append(temp)
+    result += temp * temp
     if summ == 0:
-        for i in list:
-            result += i * i
         break
-
 
 print(result)
