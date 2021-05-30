@@ -1,7 +1,7 @@
 ﻿'''
     поиск минимума
 '''
-
+print("Введите числа через пробел:")
 numbers = [int(i) for i in input().split()]
 min = numbers[0]
 
